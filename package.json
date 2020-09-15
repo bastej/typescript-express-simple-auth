@@ -1,0 +1,26 @@
+{
+  "name": "typescript-express-simple-auth",
+  "version": "1.0.0",
+  "description": "Simple auth with use of TypeScript and Express (course app)",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastej/typescript-express-simple-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bastej/typescript-express-simple-auth/issues"
+  },
+  "homepage": "https://github.com/bastej/typescript-express-simple-auth#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
